@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    -name: update
+    - name: update
       run: sudo apt-get update
     - name: Install pdflatex
       run: sudo apt-get install texlive-latex-base texlive-latex-recommended texlive-latex-extra
